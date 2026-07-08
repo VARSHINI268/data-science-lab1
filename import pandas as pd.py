@@ -1,3 +1,7 @@
 import pandas as pd
-x=pd.read_csv(r"C:\Users\N.Sree Varshini\OneDrive\DATA SCIENCE\STUDENT_DETAILS.csv")
-print(x.head(3))
+data=pd.read_csv(r"C:\Users\N.Sree Varshini\OneDrive\Pictures\Desktop\student_data1.csv")
+print("****")
+print(data)
+print("****")
+print(data.isnull())
+print("****")
